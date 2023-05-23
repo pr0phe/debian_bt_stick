@@ -1,28 +1,28 @@
-USB REALTEK RTL8671B bluetooth stick Debian install\
+USB REALTEK RTL8671B bluetooth stick Debian install <br>
 
-Установка драйвера для USB Bluetooth в Debian 11\
-Версия работает для стика https://a.aliexpress.com/_DlcRgQh\
+Установка драйвера для USB Bluetooth в Debian 11 <br>
+Версия работает для стика https://a.aliexpress.com/_DlcRgQh <br>
 
-Чип: REALTEK RTL8671B\
+Чип: REALTEK RTL8671B <br>
 
-Источник: https://debian.pkgs.org/11/debian-nonfree-arm64/firmware-realtek_20210315-3_all.deb.html\
-Binary Package	http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb\
-Source Package	firmware-nonfree\
-Mirror          ftp.de.debian.org\
+Источник: https://debian.pkgs.org/11/debian-nonfree-arm64/firmware-realtek_20210315-3_all.deb.html <br>
+Binary Package	http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb <br>
+Source Package	firmware-nonfree <br>
+Mirror          ftp.de.debian.org <br>
 
-1.Установка\
-Скачать пакет и установить можно двумя способами:  
-* Скачать сам пакет  
-```# wget http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb\  
-# sudo apt install -y /путь к папке/firmware-realtek_20210315-3_all.deb```\
-Если скачали firmware-realtek_20210315-3_all.deb в папку root, то вводим так\
-`sudo apt install -y ~/firmware-realtek_20210315-3_all.deb`
+1.Установка <br>
+Скачать пакет и установить можно двумя способами: <br>
+* Скачать сам пакет <br>
+```# wget http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb <br> 
+# sudo apt install -y /путь к папке/firmware-realtek_20210315-3_all.deb``` <br>
+Если скачали firmware-realtek_20210315-3_all.deb в папку root, то вводим так <br>
+`sudo apt install -y ~/firmware-realtek_20210315-3_all.deb` <br>
 
-* Или добавить в sources.list ссылку, обновить и установить пакет.\
-Открываем sources.list\
-`# sudo nano /etc/apt/sources.list`\
-Добавляем ссылки\
-```#deb http://ftp.de.debian.org/debian stable main\
+* Или добавить в sources.list ссылку, обновить и установить пакет. <br>
+Открываем sources.list <br>
+`# sudo nano /etc/apt/sources.list` <br>
+Добавляем ссылки <br>
+```#deb http://ftp.de.debian.org/debian stable main <br>
 #deb http://ftp.de.debian.org/debian-security stable/updates main```
 
 Обновить пакеты
