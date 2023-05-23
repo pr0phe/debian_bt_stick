@@ -15,11 +15,13 @@ Mirror          ftp.de.debian.org <br>
 
 * Скачать сам пакет <br>
 ```
-# wget http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb
-# sudo apt install -y /путь к папке/firmware-realtek_20210315-3_all.deb
+wget http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb
+sudo apt install -y /путь к папке/firmware-realtek_20210315-3_all.deb
 ```
 Если скачали firmware-realtek_20210315-3_all.deb в папку root, то вводим так <br>
-`sudo apt install -y ~/firmware-realtek_20210315-3_all.deb` <br>
+```
+sudo apt install -y ~/firmware-realtek_20210315-3_all.deb
+``` <br>
 
 * Или добавить в sources.list ссылку, обновить и установить пакет. <br>
 Открываем sources.list <br>
