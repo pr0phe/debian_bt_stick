@@ -92,12 +92,14 @@ failed with error -2 или not found
 ```
 sudo dmesg | grep -i bluetooth
 ```
-<br>
+
+
 Команда выводит MAC-адрес вашего Bluetooth адаптера и его версию. Если вам нужна только версия протокола, которую поддерживает Bluetooth вашего компьюютера, то используйте команду: <br>
 ```
 btmgmt info | awk 'BEGIN{split("1.0b 1.1 1.2 2.0 2.1 3.0 4.0 4.1 4.2 5.0 5.1 5.2 5.3",i," ")}$1=="addr"{print $2"\tBluetooth: V"i[$4+1]}'
 ```
-<br>
+
+
 Узнать только мак адрес bluetooth <br>
 - Вариант 1
 ```
@@ -107,11 +109,13 @@ hcitool dev | grep -o "[[:xdigit:]:]\{11,17\}"
 ```
 hcitool dev | cut -sf3
 ```
-<br>
+
+
 
 Выводим список имеющихся bluetooth
 ```
 hciconfig -a
 ```
+
 
 Original by https://gist.github.com/DivanX10/7c6ca3f325dfd853b38c04da9dce28a6
