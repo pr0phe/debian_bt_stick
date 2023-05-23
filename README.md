@@ -74,10 +74,14 @@ sudo systemctl start bluetooth.service
 sudo reboot
 ```
 
-Повторно выводим информацию о доступных bluetooth адаптеров, где не должно быть <br>
+Повторно выводим информацию о доступных bluetooth адаптеров, 
+```
+sudo dmesg | grep -i bluetooth
+```
+где не должно быть
 ```
 failed with error -2 или not found
-sudo dmesg | grep -i bluetooth
+
 ```
 
 Есди вы это не видите, значит драйвер установлен и USB bluetooth готов к работе
