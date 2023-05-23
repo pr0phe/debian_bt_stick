@@ -21,7 +21,7 @@ sudo apt install -y /путь к папке/firmware-realtek_20210315-3_all.deb
 Если скачали firmware-realtek_20210315-3_all.deb в папку root, то вводим так <br>
 ```
 sudo apt install -y ~/firmware-realtek_20210315-3_all.deb
-``` <br>
+```
 
 * Или добавить в sources.list ссылку, обновить и установить пакет. <br>
 Открываем sources.list <br>
