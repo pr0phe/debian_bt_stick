@@ -10,7 +10,7 @@ Binary Package	http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/
 Source Package	firmware-nonfree
 Mirror          ftp.de.debian.org
 
-1. Установка
+1.Установка
 Скачать пакет и установить можно двумя способами:
 Скачать сам пакет
 wget http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb
