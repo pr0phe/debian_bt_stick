@@ -10,7 +10,7 @@ Binary Package	http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/
 Source Package	firmware-nonfree <br>
 Mirror          ftp.de.debian.org <br>
 
-1.Установка <br>
+1. Установка <br>
 Скачать пакет и установить можно двумя способами: <br>
 
 * Скачать сам пакет <br>
@@ -25,18 +25,27 @@ sudo apt install -y ~/firmware-realtek_20210315-3_all.deb
 
 * Или добавить в sources.list ссылку, обновить и установить пакет. <br>
 Открываем sources.list <br>
-`# sudo nano /etc/apt/sources.list` <br>
+```
+sudo nano /etc/apt/sources.list
+```
+
 Добавляем ссылки <br>
-```#deb http://ftp.de.debian.org/debian stable main <br>
-#deb http://ftp.de.debian.org/debian-security stable/updates main```
+```
+deb http://ftp.de.debian.org/debian stable main <br>
+deb http://ftp.de.debian.org/debian-security stable/updates main
+```
 
 Обновить пакеты
+```
 sudo apt-get update
+```
 
 Установить прошивку firmware-realtek
+```
 sudo apt-get install firmware-realtek
+```
 
-2.Проверяем работостпособность:
+2. Проверяем работостпособность:
 
 Вывести информацию о доступных bluetooth адаптеров
 sudo dmesg | grep -i bluetooth
