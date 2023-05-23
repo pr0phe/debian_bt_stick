@@ -6,11 +6,9 @@ USB REALTEK RTL8671B bluetooth stick Debian install
 Чип: REALTEK RTL8671B
 
 Источник: https://debian.pkgs.org/11/debian-nonfree-arm64/firmware-realtek_20210315-3_all.deb.html
-------------------------------------------------------------------------------------
 Binary Package	http://ftp.de.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-realtek_20210315-3_all.deb
 Source Package	firmware-nonfree
 Mirror          ftp.de.debian.org
-------------------------------------------------------------------------------------
 
 1. Установка
 Скачать пакет и установить можно двумя способами:
@@ -31,7 +29,6 @@ sudo apt-get update
 
 Установить прошивку firmware-realtek
 sudo apt-get install firmware-realtek
-------------------------------------------------------------------------------------
 
 2.Проверяем работостпособность:
 
@@ -60,10 +57,8 @@ sudo dmesg | grep -i bluetooth
 Вот этого не должно уже быть. Есди вы это не видите, значит драйвер установлен и USB bluetooth готов к работе
 bluetooth hci0: Direct firmware load for rtl_bt/rtl8761b_fw.bin failed with error -2
 Bluetooth: hci0: RTL: firmware file rtl_bt/rtl8761b_fw.bin not found
-------------------------------------------------------------------------------------
 
 3. Дополнительная информация
-
 Вывести информацию о доступных bluetooth адаптеров
 sudo dmesg | grep -i bluetooth
 
