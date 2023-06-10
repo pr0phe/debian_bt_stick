@@ -1,7 +1,8 @@
 USB REALTEK RTL8671B bluetooth stick Debian install <br>
 
 Установка драйвера для USB Bluetooth в Debian 11 <br>
-Версия работает для стика https://a.aliexpress.com/_DlcRgQh <br>
+Версия работает для стика BT 5.0 https://a.aliexpress.com/_DlcRgQh <br>
+Также проверено для стика BT 5.3 https://sl.aliexpress.ru/p?key=LnlIZkY <br>
 
 Чип: REALTEK RTL8671B <br>
 
